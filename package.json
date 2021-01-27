@@ -7,7 +7,8 @@
     "raf": "^3.4.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "eslint-teamcity": "3.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -16,7 +17,8 @@
     "test-ci": "yarn test --coverage --testResultsProcessor=jest-teamcity-reporter",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "lint:teamcity": "eslint app/src --format './node_modules/eslint-teamcity/index.js'"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",
