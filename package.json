@@ -18,7 +18,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "lint:teamcity": "eslint app/src --format './node_modules/eslint-teamcity/index.js'"
+    "lint:teamcity": "eslint src --format './node_modules/eslint-teamcity/index.js'"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",
