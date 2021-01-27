@@ -18,6 +18,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
+    "lint:init": "eslint --init",
     "lint:teamcity": "eslint src --format './node_modules/eslint-teamcity/index.js'"
   },
   "devDependencies": {
