@@ -28,6 +28,12 @@
     "@storybook/react": "^5.1.9",
     "babel-loader": "^8.0.6"
   },
+  "eslint-teamcity": {
+    "reporter": "inspections",
+    "report-name": "My ESLint Violations",
+    "error-statistics-name": "My ESLint Error Count",
+    "warning-statistics-name": "My ESLint Warning Count"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
